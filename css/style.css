@@ -1,0 +1,61 @@
+body{
+    display: center;
+    flex: content;
+    justify-content: space-around;
+    padding: 200px;
+}
+#number{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+#program{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+#positive{
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#negative{
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 15px 20px;
+    margin: 1px 0;
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
